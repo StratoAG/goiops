@@ -58,7 +58,7 @@ func main() {
 			}
 
 			runTime := time.Since(preRun)
-			log.Printf("Whole: %.2fs, Sync: %.2fms", float64(runTime)/float64(time.Second), float64(syncTime)/float64(time.Millisecond))
+			log.Printf("Whole: %.2fs, Sync: %7.2fms", float64(runTime)/float64(time.Second), float64(syncTime)/float64(time.Millisecond))
 		}
 	}
 }
